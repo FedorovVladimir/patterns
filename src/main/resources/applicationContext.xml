@@ -11,4 +11,9 @@
           class="ru.vladimir.patterns.ClassicalMusic">
     </bean>
 
+    <bean id="musicPlayer"
+          class="ru.vladimir.patterns.MusicPlayer">
+        <constructor-arg ref="musicBean"/>
+    </bean>
+
 </beans>
